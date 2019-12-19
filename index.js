@@ -5,7 +5,7 @@ var express = require('express'),
 app.listen(port);
 
 app.get("/", (req, res, next) => {
-    res.json(["Tony12","Lisa","Michael","Ginger","Food"]);
+    res.json(["Tony","Lisa","Michael","Ginger","Food"]);
 });
 
 console.log('Listening on http://localhost:' + port);
